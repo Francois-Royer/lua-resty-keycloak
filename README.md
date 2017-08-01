@@ -13,6 +13,9 @@ It can support the [Authorization Service](https://keycloak.gitbooks.io/document
 
 **NOTE**: The Authoriztion Service function is limited compared with the adapter provided by Keycloak. Only provides url based access contorl.
 
+##Author
+Takashi Mogi, Hitachi,Ltd
+
 ## Installation 
 **TBD**
 
@@ -62,12 +65,12 @@ It can support the [Authorization Service](https://keycloak.gitbooks.io/document
 ## TODO
 
 - Common
-  - [] improve error handling and logging 
-  - [] test cases
-  - [] use caches 
+  - [ ] improve error handling and logging 
+  - [ ] test cases
+  - [ ] use caches 
 - Authorization service
-  - [] "**Authorization Scopes**" and "**Methods**" based access control. 
-  - [] improve path matchings between request path and resources.
+  - [ ] "**Authorization Scopes**" and "**Methods**" based access control. 
+  - [ ] improve path matchings between request path and resources.
     - [x]  Wildcards: /*
     - [x] Suffix: /*.html
     - [x] Sub-paths: /path/*
