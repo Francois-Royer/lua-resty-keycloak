@@ -1,4 +1,4 @@
-local version = require "resty.keycloak.api.version"
+local version = require "resty.keycloak.version"
 local Request = require "resty.keycloak.api.request" 
 local Protection = require "resty.keycloak.api.protection"
 local Entitlement = require "resty.keycloak.api.entitlement"
